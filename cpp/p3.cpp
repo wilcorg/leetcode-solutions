@@ -1,7 +1,5 @@
-#include <iostream>
-#include <string>
-#include <unordered_map>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
 
 //int lengthOfLongestSubstring(const std::string& s) {
 //    std::unordered_map<char, int> memory;
@@ -49,7 +47,9 @@ int lengthOfLongestSubstring(const std::string& s) {
 }
 
 int main() {
-    std::string input = "pwwkew";
+//    std::string input = "abcabcbb";
+    std::string input = "bbbb";
+//    std::string input = "abcabcbb";
     std::cout << lengthOfLongestSubstring(input) << std::endl;
     return 0;
 }
